@@ -1,0 +1,63 @@
+#navbar{
+    flex-direction: column;
+    height: 76px;
+}
+
+#logo-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo-sec h3{
+    font-size: 1.1rem;
+}
+
+#navbar ul{
+    justify-content: center;
+}
+.options a{
+    font-size: 1rem;
+    padding: 0px 8px;
+    padding-bottom: 8px;
+}
+
+.search-box{
+    margin-top: 20px;
+    margin-right: 7px;
+}
+.search-box input{
+    width: 100px;
+}
+
+.fac-1{
+    display: flex;
+    flex-direction:column;
+}
+.fac-1 img{
+        display: block;
+        margin: auto;
+}
+.fac-2{
+    display: flex;
+    flex-direction:column-reverse;
+}
+.fac-2 img{
+        display: block;
+        margin: auto;
+}
+.fac-3{
+    display: flex;
+    flex-direction:column;
+}
+.fac-3 img{
+        display: block;
+        margin: auto;
+}
+.fac-4{
+    display: flex;
+    flex-direction:column-reverse;
+}
+.fac-4 img{
+        display: block;
+        margin: auto;
+}

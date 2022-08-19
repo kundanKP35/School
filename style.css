@@ -1,0 +1,269 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    position: sticky;
+    background-color: purple;
+    top: 0px;
+    height: 53px;
+    text-align: center;
+}
+/* #navbar::before{
+    content: "";
+    position: absolute;
+    background-color: purple;
+    top: 0px;
+    left: 0px;
+    height:53px;
+    width: 100%;
+    z-index:-1;
+} */
+#logo-sec{
+    display: flex;
+}
+#logo-sec img{
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 14px;
+    margin-left: 27px;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+#logo-sec h3{
+    color: white;
+    margin: 15px 7px;
+    font-family: 'Crimson Pro', serif;
+}
+
+
+#navbar ul{
+    display: flex;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.options{
+    list-style: none;
+}
+.options a{
+    text-decoration: none;
+    color: white;
+    padding: 17px 16px;
+    display: block;
+    font-weight: 1.2rem;
+    font-family: 'Crimson Pro', serif;
+    font-weight: bold;
+}
+.options a:hover{
+    color:wheat
+}
+
+
+.search-box{
+    position:absolute;
+    right:0px;
+    margin: 10px 40px 10px 21px;
+}
+.search-box input{
+    width: 140px;  
+    border: 3px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    padding: 8px 9px;
+    text-align: center;
+    font-family: 'Crimson Pro', serif;
+}
+
+#section-1::before{
+    content: "";
+    position: absolute;
+    background: url('campus.jpg') no-repeat center center/cover;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 320px;
+    z-index: -1;
+    opacity: 0.99;
+}
+#section-1{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    text-align: center;
+}
+#section-1 h2{
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 90px;
+    margin-bottom: 16px;
+    font-family: 'Crimson Pro', serif;
+}
+#section-1 p{
+    color: white;
+    text-align: center;
+    font-size: 1.4;
+    font-family: 'Andada Pro', serif;
+}
+
+
+#facilities h3{
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: 'Crimson Pro', serif;
+}
+.item h4{
+    font-size: 1.3rem;
+    margin: 3px 0px 0px 12px;
+    font-family: 'Crimson Pro', serif;
+}
+.item{
+    margin-bottom: 32px;
+}
+
+.fac-1{
+    display: flex;
+    flex-direction:row;
+    border: 3px solid brown;
+    border-radius: 7px;
+    margin: 3px 0px 0px 5px;
+}
+.fac-1 img{
+    margin: 10px 7px;
+    border-radius: 19px;
+    width: 218px;
+    height: 149px;
+}
+.fac-1 p{
+    margin: 37px 35px 3px 27px;
+    font-size: 1.1rem;
+    font-family: 'Andada Pro', serif;
+}
+
+.fac-2{
+    display: flex;
+    flex-direction:row;
+    border: 3px solid brown;
+    border-radius: 7px;
+    margin: 3px 0px 0px 5px;
+}
+.fac-2 img{
+    margin: 10px 7px;
+    border-radius: 19px;
+    width: 249px;
+    height: 157px;
+}
+.fac-2 p{
+    margin: 37px 35px 3px 27px;
+    font-size: 1.1rem;
+    font-family: 'Andada Pro', serif;
+}
+
+.fac-3{
+    display: flex;
+    flex-direction:row;
+    border: 3px solid brown;
+    border-radius: 7px;
+    margin: 3px 0px 0px 5px;
+}
+.fac-3 img{
+    margin: 10px 7px;
+    border-radius: 19px;
+    width: 249px;
+    height: 157px;
+}
+.fac-3 p{
+    margin: 37px 35px 3px 27px;
+    font-size: 1.1rem;
+    font-family: 'Andada Pro', serif;
+}
+
+.fac-4{
+    display: flex;
+    flex-direction:row;
+    border: 3px solid brown;
+    border-radius: 7px;
+    margin: 3px 0px 0px 5px;
+}
+.fac-4 img{
+    margin: 10px 7px;
+    border-radius: 19px;
+    width: 249px;
+    height: 157px;
+}
+.fac-4 p{
+    margin: 37px 35px 3px 27px;
+    font-size: 1.1rem;
+    font-family: 'Andada Pro', serif;
+}
+
+#others{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 4px;
+    font-family: 'Crimson Pro', serif;
+}
+
+
+#notice-section{
+    border: 3px solid brown;
+    height: 300px;
+    border-radius: 7px;
+    margin: 3px 0px 0px 5px;
+}
+#notice-section h3{
+    text-align: center;
+    margin-top: 3px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.6rem;
+}
+/* #notice-section::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(135, 155, 222);
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+} */
+
+
+#contact{
+    position: relative;
+    margin-top: 39px;
+    height: 200px;
+}
+#contact::before{
+    content: "";
+    background: url('contact1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+#contact-details{
+    text-align: center;
+    color: white;
+    margin-top: 42px;
+    font-size: 1.5rem;
+    font-family: 'Crimson Pro', serif;
+}
+#contact h3{
+    text-align: center;
+    font-size: 1.9rem;
+    color: white;
+    font-family: 'Crimson Pro', serif;
+}
+
+#copyright p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+}
